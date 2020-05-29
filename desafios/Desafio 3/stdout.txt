@@ -1,0 +1,36 @@
+============================= test session starts =============================
+platform win32 -- Python 3.8.2, pytest-4.6.2, py-1.8.1, pluggy-0.13.1 -- C:\Users\Victor\AppData\Local\Programs\Python\Python38-32\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Victor\codenation\data-science-1
+collecting ... collected 5 items
+
+test_submit.py::test_q1 PASSED                                           [ 20%]
+test_submit.py::test_q2 PASSED                                           [ 40%]
+test_submit.py::test_q3 PASSED                                           [ 60%]
+test_submit.py::test_q4 PASSED                                           [ 80%]
+test_submit.py::test_q5 PASSED                                           [100%]
+
+============================== warnings summary ===============================
+C:\Users\Victor\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\plotting\_matplotlib\tools.py:298
+  C:\Users\Victor\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\plotting\_matplotlib\tools.py:298: MatplotlibDeprecationWarning: 
+  The rowNum attribute was deprecated in Matplotlib 3.2 and will be removed two minor releases later. Use ax.get_subplotspec().rowspan.start instead.
+    layout[ax.rowNum, ax.colNum] = ax.get_visible()
+
+C:\Users\Victor\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\plotting\_matplotlib\tools.py:298
+  C:\Users\Victor\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\plotting\_matplotlib\tools.py:298: MatplotlibDeprecationWarning: 
+  The colNum attribute was deprecated in Matplotlib 3.2 and will be removed two minor releases later. Use ax.get_subplotspec().colspan.start instead.
+    layout[ax.rowNum, ax.colNum] = ax.get_visible()
+
+C:\Users\Victor\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\plotting\_matplotlib\tools.py:304
+  C:\Users\Victor\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\plotting\_matplotlib\tools.py:304: MatplotlibDeprecationWarning: 
+  The rowNum attribute was deprecated in Matplotlib 3.2 and will be removed two minor releases later. Use ax.get_subplotspec().rowspan.start instead.
+    if not layout[ax.rowNum + 1, ax.colNum]:
+
+C:\Users\Victor\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\plotting\_matplotlib\tools.py:304
+  C:\Users\Victor\AppData\Local\Programs\Python\Python38-32\lib\site-packages\pandas\plotting\_matplotlib\tools.py:304: MatplotlibDeprecationWarning: 
+  The colNum attribute was deprecated in Matplotlib 3.2 and will be removed two minor releases later. Use ax.get_subplotspec().colspan.start instead.
+    if not layout[ax.rowNum + 1, ax.colNum]:
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+-- generated xml file: C:\Users\Victor\codenation\data-science-1\output.xml ---
+==================== 5 passed, 4 warnings in 7.41 seconds =====================
